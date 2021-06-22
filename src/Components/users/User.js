@@ -61,12 +61,7 @@ const User = ({ match }) => {
                 <p>{bio}</p>
               </>
             )}
-            <a
-              href={html_url}
-              className="btn btn-dark my-1"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href={html_url} className="btn btn-dark my-1">
               Visited Github Profile
             </a>
             <ul>
